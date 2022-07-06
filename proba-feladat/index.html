@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Proba feladat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+</head>
+<body>
+<div class="navbar" id="pagetop">
+    <img class="logo" style="float:left; padding-left: 20%" src="images/hsa-logo-white.svg" alt="HSA Logo">
+
+    <ul class="list">
+        <li class="navelement"><a href="#s1">Készülékek</a></li>
+        <li class="navelement"><a href="#s2">Top márkák</a></li>
+        <li class="navelement"><a href="#s3">Ismerősen cseng?</a></li>
+        <li class="navelement"><a href="#s4">Prémium lehetőség</a></li>
+        <li class="navelement"><a href="#s5">SIM-kártya adatok</a></li>
+    </ul>
+</div>
+
+<div class="first">
+
+    <h1 id="fbig">Telefonos kisokos</h1>
+    <p id="fsmall">A telefonálás az a cselekvés vagy pillanat, amikor telefonon beszélünk valakivel.</p>
+    <button class="button buttonf"><a href="#s5">SIM adataim.</a></button>
+
+</div>
+<div>
+    <table style="width:100%; border-collapse: collapse";>
+    <tr class="rows1">
+        <td class="keszulekek" id="s1">
+
+            <h2>Készülékek</h2>
+            <ul class="phones">
+                <li class="phoneelement">iPhone</li>
+                <li class="phoneelement">oldPhone</li>
+                <li class="phoneelement">noPhone</li>
+            </ul>
+
+        </td>
+        <td class="topmarkak" id="s2">
+            <h2>Top márkák</h2>
+            <ul class="markalista">
+                <li class="marka">Apple</li>
+                <li class="marka">Samsung</li>
+                <li class="marka">Google</li>
+                <li class="marka">Huawei</li>
+                <li class="marka">OnePlus</li><br>
+                <li class="marka">Xiaomi</li>
+                <li class="marka">LG</li>
+                <li class="marka">Oppo</li>
+                <li class="marka">Vivo</li>
+                <li class="marka">Nokia</li>
+            </ul>
+            <br><br>
+            <button style="margin-top: 30px" class="button prembutton" ><a href="#s4">Prémium lehetőség.</a></button>
+
+
+        </td>
+    </tr>
+    <tr class="rows1">
+        <td class="ismeros" id="s3">
+            <ul class="szoveg">
+                <li class="szovege">Bzzt! Bzzt!</li>
+                <li class="szovege">Rrrrrrring! Bbbrrrring!</li>
+                <li class="szovege">Ching Ching!</li>
+                <li class="szovege"><h2 style="padding-top: 10px">Ismerősen cseng?</h2></li>
+            </ul>
+
+        </td>
+
+        <td class="telefon"></td>
+    </tr>
+    </table>
+</div>
+
+<div class="empty">
+    <p></p>
+</div>
+<div class="premium" id="s4">
+    <p>Kelet magyarországi teljes lefedettség. Hosszú üzemidő.</p>
+    <h2>Prémium lehetőség.</h2>
+
+    <table style="width:100%; border-collapse: collapse; margin-top: 50px">
+        <tr>
+            <td style="text-align: left">
+                <img class="row" src="images/hsa-logo-white.svg" alt="HSA Logo">
+            </td>
+            <td style="text-align: center">
+                <img class="row" src="images/hsa-logo-white.svg" alt="HSA Logo">
+            </td>
+            <td style="text-align: right">
+                <img class="row" src="images/hsa-logo-white.svg" alt="HSA Logo">
+            </td>
+        </tr>
+    </table>
+
+</div>
+<div class="kepkuldes" id="s5">
+    <h1 style="color: #171b31">SIM-kártya adatok</h1>
+    <p>Számunkra fontos a segítséged.</p>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data" name="EmailForm">
+        <input style="margin: 20px 20px 20px 0px" type="text" id="fname" name="fname" value="Név">
+        <input type="email" id="email" name="email" value="E-mail cím"><br>
+        <input style="margin-bottom: 20px;"type="checkbox" id="standard" name="standard" value="standard">
+        <label style="margin-right: 20px" for="standard"> Standard</label>
+        <input type="checkbox" id="micro" name="micro" value="micro">
+        <label style="margin-right: 20px" for="micro"> Micro</label>
+        <input type="checkbox" id="nano" name="nano" value="nano">
+        <label for="nano"> Nano</label><br>
+        <p style="margin-bottom: 5px">Lepj meg minket egy tetszőleges képpel!</p>
+        <input style="margin-bottom: 20px" type="file" id="kepfeltoltes" name="kepfeltoltes"><br>
+        <label for="submit">A "Küldés" gombra kattintva elfogadod az adatkezelési tájékoztatóban foglaltakat.</label><br>
+        <input class="buttonf" id="submit" style="margin: 5px 0px 0px 0px" type="submit" value="Küldés">
+    </form>
+
+</div>
+<footer>
+    <img class="logo" src="images/hsa-logo-white.svg" alt="HSA Logo">
+    <button style="margin: 0px 0px 0px 20px;float: right" class="button buttonf"><a href="#pagetop">Újra látni akarom.</a></button>
+    <p style="float: right; text-align: right;" >Adatkezelési tájékoztató<br>Copyright ©2022 Minden jog fenntartva.</p><br>
+
+</footer>
+
+</body>
+</html>

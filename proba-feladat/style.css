@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+
+}
+
+/* MENU */
+.navbar{
+    background-color: #00b26b;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.logo{
+    max-width: 5%;
+}
+
+.list{
+
+    margin-left:100px;
+    list-style-type: none;
+    display: inline-block;
+}
+.navelement{
+    float:left;
+    padding: 14px 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* FIRST SECTION */
+
+.first{
+    background-image: url("images/proba-back-1.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-decoration: none;
+    text-align: left;
+    color: white;
+
+}
+
+
+
+#fbig{
+
+    padding-left: 20%;
+    padding-top: 20%;
+}
+
+#fsmall{
+
+    padding-left: 20%;
+    padding-top: 10px;
+
+}
+
+.buttonf{
+
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    cursor: pointer;
+    background-color: #00b26b;
+    border-radius: 8px;
+}
+
+/* SECOND SECTION */
+
+.rows1{
+    height:300px;
+}
+
+
+.keszulekek{
+    color: black;
+
+    width:50%;
+    padding-left: 20%;
+}
+
+.phones{
+    list-style-type: none;
+
+}
+
+.phoneelement{
+}
+
+.ismeros{
+    color: white;
+    background-color: #00b26b;
+
+    width:50%;
+    padding-left: 20%;
+}
+
+.szoveg{
+    list-style-type: none;
+
+    display: inline-block;
+
+}
+
+.szovege{
+
+}
+
+.topmarkak{
+    color: white;
+    background-color: #171b31;
+    text-align: right;
+    padding-right: 20%;
+
+}
+
+.markalista{
+    float:right;
+    list-style: none;
+    text-align: right;
+
+}
+.marka{
+
+
+}
+
+.prembutton{
+
+    float:right;
+    margin: 0;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.marka{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-left:5px;
+    padding-right:5px;
+    display: inline;
+}
+
+.telefon{
+    background-image: url("images/proba-phone.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width:50%;
+}
+
+/* THIRD SECTION */
+
+.empty{
+    height: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/* FOURTH SECTION */
+
+.premium{
+    background-image: url("images/proba-back-2.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+
+    padding: 10% 20% 10% 20%;
+}
+
+.row{
+    max-width: 40%;
+}
+
+/* FIFTH SECTION */
+
+.kepkuldes{
+    color: #202428;
+    padding: 5% 20% 5% 20%;
+}
+
+#fname, #email{
+    color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+
+}
+
+/* FOOTER */
+
+footer{
+    padding: 1% 20% 1% 20%;
+    background-color: #171b31;
+    color: white;
+}
